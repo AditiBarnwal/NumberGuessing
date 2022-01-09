@@ -3,7 +3,7 @@ import random
 name = input("What is your name?:")
 print("Good Luck!!", name)
 words = ['rainbow', 'computer', 'science', 'programming', 'python', 'mathmatics', 'player', 'condition', 'reverse',
-         'water', 'board', 'geeks']
+         'water', 'board']
 word = random.choice(words)
 print("guess the characters:")
 guesses = ''
